@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Jana Johansson - CV</title>
+</head>
+<body>
+    <header>
+        <h1>Jana Johansson</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="om-mig.html">Om mig</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <ol class="portfolio-list">
+        <li class="project1" id="project1">
+            <h2>Projekt 1</h2>
+            <img src="Projekt1.jpg" alt="Proj1">
+            <h4>Program gymnasium</h4><br>
+            <p>Länk github:</p>
+            <a href="https://github.com/JanaJohansson00/Labb3-Gymnasium" target="_blank">Github-Gymnaisum</a><br><br>
+            <input type="checkbox" id="project1-toggle" class="toggle-checkbox">
+            <label for="project1-toggle" class="show-button">Visa mer</label>
+            <div class="modal">
+                <div class="modal-content">
+                    <label for="project1-toggle" class="close-button">&times;</label>
+                    <h2>Mer information om projekt 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At magnam perspiciatis ipsum similique praesentium! Autem natus doloremque, quos ut nulla quaerat labore id. Ea fugiat provident reprehenderit explicabo? Voluptates, ipsam.</p>
+                </div>
+            </div>
+            <br><br>
+        </li>
+    
+        <li class="project2" id="project2">
+            <h2>Projekt 2</h2>
+            <img src="Projekt2.jpg" alt="Proj2" class="project-image">
+            <h4>Program boksystem</h4><br>
+            <p>Länk github:</p>
+            <a href="https://github.com/JanaJohansson00/BokSystem" target="_blank">Github-Boksystem</a><br><br>
+            <input type="checkbox" id="project2-toggle" class="toggle-checkbox">
+            <label for="project2-toggle" class="show-button">Visa mer</label>
+            <div class="modal">
+                <div class="modal-content">
+                    <label for="project2-toggle" class="close-button">&times;</label>
+                    <h2>Mer information om projekt 2</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore omnis nesciunt eaque inventore veritatis ullam deleniti commodi quibusdam reprehenderit, quasi qui facere consectetur officiis nulla accusantium suscipit neque, odio vel?
+
+                    </p>
+                </div>
+            </div>
+        </li>
+    </ol>
+
+    <footer>
+        <p>&copy; 2024 Jana Johansson.</p>
+    </footer>
+
+</body>
+</html>
